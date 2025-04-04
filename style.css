@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Tektur:wght@400..900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #03045E;
+  font-family: Tektur;
+}
+
+p{
+  color: #fff;
+}
+h1{
+  color: white;
+}
+#nomeFilme{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+#nomeFilme:hover{
+  width: 60%;
+}
+.container{
+  text-align: center;
+}
+
+#info{
+  color: white;
+  text-align: initial;
+}
+
+#cartaz{
+  border-radius: 5px;
+}
+.containerCartaz{
+  background-color: #03045E;
+  margin: 10px;
+  height: auto;
+}
+
+#sub{
+  width: 50%;
+  padding: 20px;
+  border-radius: 300px;
+  border: none;
+}
+
+#sub:hover{
+  background-color: #A020F0;
+  box-shadow: #CCCCFF 2px 4px;
+  color: white;
+}
