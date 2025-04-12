@@ -1,24 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmes DB</title>
+    <title>CRONOMETRO</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-  <div class="container">
-    <h1>PESQUISAR FILME</h1>
-  <input type="text" id="nomeFilme" placeholder="Coloque o nome do filme"><br>
-  <div class="containerCartaz">
-    <img src="#" id="cartaz" alt="Cartaz do filme" style="max-width:100%; height: auto;"><br>
-      <p id="info"></p><br>
-    <button type="button" id="sub" onclick="Pesquisar()">Pesquisar</button>
-  </div>
-       </div>
-
     
-    <script src="Search.js"></script>
-  </body>
+  <div id="navbar">
+    <p class="nome">Cronômetro</p>
+    <p onmousedown="infolorem()" class="info">info</p>
+  </div>
+  <p id="lorem">Número da versão: 1.0.22</p>
+   
+    <div id="box">
+      <p id="horas">00:</p>
+      <p id="minutos">00:</p>
+      <p id="segundos">00</p>
+    </div>
+    
+    <p id="mensagem"></p>
+    
+    <div id="opcoes">
+      <p id="reiniciar" onclick="reiniciar()">Reiniciar</p>
+      <p id="iniciar" onclick="iniciar()">Iniciar</p>
+      <p id="pausar" onclick="pausar()">Pausar</p>
+    </div>
+    
+<div id="musicas">
+  <button onclick="tocar()" ondblclick="parar()">Música relaxante</button>
+  
+  <p id="instrucao"></p>
+<audio id="musica" autoplay loop>
+  <source src="relaxante.m4a" type="audio/mp4">
+</div>
+</audio>
+ 
+    
+    <footer>
+      <p>&copy;Muiomo 2025</p>
+    </footer>
+    
+    <script src="crono.js"></script>
+</body>
 </html>
