@@ -1,171 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Tektur:wght@400..900&display=swap');
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Tektur:wght@400..900&display=swap');
+
+body{
   margin: 0;
   padding: 0;
+  background-color: #03045E;
   font-family: Tektur;
 }
 
-#navbar{
-  display: flex;
-  background:white;
-  height: auto;
-  width: 100%;
-  text-align: ;
+p{
+  color: #fff;
 }
-#navbar .nome{
-  float: left;
-  margin: 20px;
-  /*border: solid red 2px;*/
-  width: 50%;
-  text-align: left;
-  font-size: 20px;
-  font-weight: bold;
-}
-#navbar .info{
-  float: left;
-  margin: 20px;
- /* border: solid red 2px;*/
-  width: 50%;
-  text-align: right;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-#box{
-  width: 80%;
-  height:auto;
-  /*border: solid red 2px;*/
-  display: flex;
-  justify-content: center;
-  margin-top: 15%;
-  font-size:24px;
-  margin-right: -10%;
-  margin-left: 10%;
-}
-#minutos,#segundos,#horas{
-  font-size: 30px;
-}
-
-#lorem{
-  display: none;
-  margin-top: 5px;
-  background: white;
-  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  color: black;
-  width: 40%;
-  height: 50px;
-  float: right;
-  margin-right: 5%;
-  text-align:center;
-  padding: 10px;
-}
-#opcoes{
-  width: 80%;
-  /*border: solid 2px red;*/
-  display: flex;
-  margin-top: 320px;
-  margin-right: -10;
-  margin-left: 10%;
-  padding: auto;
-}
-
-#reiniciar{
-  background: #355070;
-  width: 25%;
-  height: 20px;
-  text-align: center;
-  padding: 5px;
-  margin: 15px;
+h1{
   color: white;
-  font-weight: bold;
-  user-select: none;
 }
-#iniciar{
-  background: #E56B6F;
-  width: 25%;
-  height: 20px;
-  text-align: center;
-  padding: 5px;
-  margin: 15px;
-  color: white;
-  font-weight: bold;
-  user-select: none;
-}
-#pausar{
-  background: #355070;
-  width: 25%;
-  height: 20px;
-  text-align: center;
-  padding: 5px;
-  margin: 15px;
-  color: white;
-  font-weight: bold;
-  user-select: none;
-}
-
-#reiniciar:hover{
-  border-right: solid red 7px;
-  border-bottom: solid black 5px;
-  border-left: solid black 3px;
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
-}
-#iniciar:hover{
-  border-right: solid red 7px;
-  border-bottom: solid black 5px;
-  border-left: solid black 3px;
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
-}
-#pausar:hover{
-  border-right: solid red 7px;
-  border-bottom: solid black 5px;
-  border-left: solid black 3px;
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
-}
-
-#mensagem{
-  text-align: center;
+#nomeFilme{
   font-size: 15px;
-  margin-top:5px;
-  margin: 15px;
-  opacity: 0.5;
-}
-
-#musicas{
-  text-align: center;
-  margin: 15px;
-  color: white;
   font-weight: bold;
-  user-select: none;
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+#nomeFilme:hover{
+  width: 60%;
+}
+.container{
+  text-align: center;
 }
 
+#info{
+  color: white;
+  text-align: initial;
+}
 
-button{
-  padding: 5px;
+#cartaz{
+  border-radius: 5px;
+}
+.containerCartaz{
+  background-color: #03045E;
+  margin: 10px;
   height: auto;
-  width: 100%;
-  background: #E56B6F;
+}
+
+#sub{
+  width: 50%;
+  padding: 20px;
+  border-radius: 300px;
+  border: none;
+}
+
+#sub:hover{
+  background-color: #A020F0;
+  box-shadow: #CCCCFF 2px 4px;
   color: white;
-  font-size: 16px;
-  font-weight: bold;
-  border-top: solid #FFA5A5 2px;
-  border-right: solid #c14444 6px;
-  border-bottom: solid #843131 5px;
-  border-left: solid #000000 3px;
-  cursor: pointer;
-  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
-  justify-content: center;
 }
-
-footer{
-  text-align: center;
-  padding: 10px;
-}
-#instrucao{
- color: #355070;
- opacity: 0.2;
-}
-
-
-
